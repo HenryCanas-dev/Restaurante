@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Italiano</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">El Buen Sabor</a>
+        </div>
+    </nav>
+
+    <div style="margin-top: 50px;"></div>
+
+    <header class="text-center mb-5">
+        <img src="data:image/png;base64,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"
+            alt="logo el buen sabor" class="img-f1">
+        <h1 class="display-4 mt-3"> Mamma Mia! - Restaurante</h1>
+        <p class="lead">Sabor Italiano que puedes disfrutar en El Salvador</p>
+        <button id="modoOscuroBtn" class="btn btn-dark mt-3">Modo Oscuro</button>
+
+    </header>
+
+    <!--Platos recomendados-->
+    <section class="container">
+        <h2 class="text-center mb-4">Platillos recomendados</h2>
+        <div class="row">
+            <!--Plato 1-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.therecipesclub.com/wp-content/uploads/2023/01/spaghetti-alla-milanese-790x500.jpg"
+                        alt="pasta">
+                    <div class="card-body">
+                        <h4 class="card-title">Pasta a la Bolognesa</h4>
+                        <p class="card-text">Pasta fresca, hecha en casa</p>
+                    </div>
+                </div>
+            </div>
+            <!--Plato 2-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNGWertkT-RVlTrEnCjlf7g14X6naNmUYdyn7-DXe6SmPYlP4eNFR9yixPD8jWV3U0MrLDYzR8CwWA2Bbl9YTxTINdrlhi8WdnaUV9eJzF_w-GfYbIvB4bI5pTuhfLGYAHnhInN93ZS10/s1600/IMG_5226-001.JPG"
+                        alt="Hamburguesa">
+                    <div class="card-body">
+                        <h4 class="card-title">Hamburguesa Italiana</h4>
+                        <p class="card-text">Carne a la parrilla con un toque italiano</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Plato 3-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.wifikaernten.at/images/wp_k/post_15332.jpg" alt="Pizza">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza Italiana</h4>
+                        <p class="card-text">Pizza artesanal hecha con ingredientes naturales</p>
+                    </div>
+                    </div>
+                    </div>
+                    <!--Plato 4-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/seafoodrisotto_5522_16x9.jpg" alt="risotto">
+                    <div class="card-body">
+                        <h4 class="card-title">Risotto con Mariscos</h4>
+                        <p class="card-text">Risotto tradicional hecho con vino blanco y mariscos frescos</p>
+                    </div>
+                    </div>
+                    </div>
+                    <!--Plato 5-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://newmansown.com/wp-content/uploads/2022/03/Homemade-lasagna.png" alt="lasagna">
+                    <div class="card-body">
+                        <h4 class="card-title">Lasagna al Horno</h4>
+                        <p class="card-text">Lasagna Bolognesa con varias capas de queso</p>
+                    </div>
+                    </div>
+                    </div>
+                    <!--Plato 6-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://justitalia.es/wp-content/uploads/2020/11/gnocchi-alla-sorrentina-1060x600.jpg" alt="gnocchi">
+                    <div class="card-body">
+                        <h4 class="card-title">Gnocchi alla Sorrentina</h4>
+                        <p class="card-text">Gnocchi con queso reggiano parmigiano y tomates naturales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4"
+                    placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>
